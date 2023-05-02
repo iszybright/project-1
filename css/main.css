@@ -35,3 +35,26 @@ img {
     font-size: large;
     color: gray;
 }
+@media  and (min-width: 512px) {
+    .wrapper {
+        background-color: hsl(220, 15%, 55%);
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .container {
+        height: 85vh;
+        width: 40vh;
+        background-color: white;
+        /* display: grid; */
+        border-radius: 11px;
+    }
+    img {
+        width: 330px;
+        height: 320px;
+        border-radius: 30px;
+        padding: 12px 12px 0px 12px;
+    }
+
+}
